@@ -450,7 +450,6 @@
   <section class="save__section">
     <button
             type="button"
-            onclick="window['dialog'].showModal();"
             aria-controls="dialog"
             class="button save__button"
     >
@@ -471,7 +470,7 @@
     </svg>
     <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
     <form class="dialog__controller" method="dialog">
-      <button type="submit" class="button dialog__button" onclick="window.dialog.close();">
+      <button type="submit" class="button dialog__button">
         <span class="button__text">ок</span>
       </button>
     </form>
