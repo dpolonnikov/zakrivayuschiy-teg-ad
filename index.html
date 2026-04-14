@@ -16,7 +16,7 @@
 <body class="page">
 <header class="header">
   <div class="header-content">
-    <span class="header__title">&lt;/HTML&gt;</span>
+    <span class="header__title">/HTML</span>
     <h1 class="header__description">закрывающий тег</h1>
   </div>
 </header>
@@ -26,7 +26,7 @@
     <h2 class="section__title">Фритрек и нулевой спринт: Подготовка к работе</h2>
     <div class="card__img-wrapper">
       <img src="images/bus.png" class="section__image" alt=""/>
-      <span class="card__img-label">&lt;/HTML&gt;</span>
+      <span class="card__img-label">/HTML</span>
     </div>
     <div class="section__container">
       <div class="block__text">
@@ -78,7 +78,7 @@
     <h2 class="section__title">1 спринт: Я — чистый лист</h2>
     <div class="card__img-wrapper">
       <img src="images/bus.png" class="section__image" alt=""/>
-      <span class="card__img-label">&lt;/HTML&gt;</span>
+      <span class="card__img-label">/HTML</span>
     </div>
     <div class="section__container">
       <div class="block__text">
@@ -130,7 +130,7 @@
     <h2 class="section__title">1 спринт: А если не получится?</h2>
     <div class="card__img-wrapper">
       <img src="images/bus.png" class="section__image" alt=""/>
-      <span class="card__img-label">&lt;CSS&gt;</span>
+      <span class="card__img-label">CSS</span>
     </div>
     <div class="section__container">
       <div class="block__text">
@@ -185,7 +185,7 @@
     <h2 class="section__title">2 спринт: Погоня за идеалом</h2>
     <div class="card__img-wrapper">
       <img src="images/bus.png" class="section__image" alt=""/>
-      <span class="card__img-label">&lt;desigions&gt;</span>
+      <span class="card__img-label">desigions</span>
     </div>
     <div class="section__container">
       <div class="block__text">
@@ -242,7 +242,7 @@
     <h2 class="section__title">2 спринт: О тех, кто рядом</h2>
     <div class="card__img-wrapper">
       <img src="images/bus.png" class="section__image" alt=""/>
-      <span class="card__img-label">&lt;care&gt;</span>
+      <span class="card__img-label">care</span>
     </div>
     <div class="section__container">
       <div class="block__text">
@@ -300,7 +300,7 @@
     <h2 class="section__title">3 спринт: Обходные стратегии</h2>
     <div class="card__img-wrapper">
       <img src="images/bus.png" class="section__image" alt=""/>
-      <span class="card__img-label">&lt;support&gt;</span>
+      <span class="card__img-label">support</span>
     </div>
     <div class="section__container">
       <div class="block__text">
@@ -350,7 +350,7 @@
     <h2 class="section__title">3 спринт: Когда опускаются руки</h2>
     <div class="card__img-wrapper">
       <img src="images/bus.png" class="section__image" alt=""/>
-      <span class="card__img-label">&lt;lifes-style: none;&gt;</span>
+      <span class="card__img-label">lifes-style: none;</span>
     </div>
     <div class="section__container">
       <div class="block__text">
@@ -401,7 +401,7 @@
     <h2 class="section__title">«Сейчас я здесь»</h2>
     <div class="card__img-wrapper">
       <img src="images/bus.png" class="section__image" alt=""/>
-      <span class="card__img-label">&lt;experience&gt;</span>
+      <span class="card__img-label">experience</span>
     </div>
     <div class="section__container">
       <div class="block__text">
@@ -450,6 +450,7 @@
   <section class="save__section">
     <button
             type="button"
+            onclick="window['dialog'].showModal();"
             aria-controls="dialog"
             class="button save__button"
     >
@@ -470,7 +471,7 @@
     </svg>
     <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
     <form class="dialog__controller" method="dialog">
-      <button type="button" class="button dialog__button">
+      <button type="button" class="button dialog__button" onclick="window.dialog.close();">
         <span class="button__text">ок</span>
       </button>
     </form>
